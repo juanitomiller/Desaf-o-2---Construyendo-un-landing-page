@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+  background-color: rgb(180, 0, 204);
+  padding: 20px;
+  height: 300px;
+  background-image: url("assets/img/Half-life.jpg");
+  /*con esto asignamos el tamaño del background*/
+  background-size: cover;
+  /*con esto declaramos que la imagen adjunta no se repita*/
+  background-repeat: no-repeat;
+  /*con este valor determinas que la posicion del background sea al medio*/
+  background-position: center;
+  width: 100%;
+
+ 
+}
+
+footer {
+  text-align: center;
+  background-color: #2A475E;
+  padding: 10px;
+  height: 300px;
+  /*background-image: url("assets/img/saga_half-life.webp");*/
+  /*con esto asignamos el tamaño del background*/
+  background-size: cover;
+  /*con esto declaramos que la imagen adjunta no se repita*/
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+}
+
+main {
+  min-height: 100vh;
+  padding: 20px;
+}
+
+h1 {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+}
+.mi-price {
+  color: orange;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+
+footer {
+  background-position: right;
+  text-align: center;
+}
+footer .header_text {
+  width: calc(100% - 40px);
+  background-position: center;
+  text-align: center;
+  transform: translate(0%, -50%);
+}
+
+footer h1 {
+  display: none;
+}
+
+.header_text {
+  width: 60%;
+  position: absolute;
+  top: 50%;
+  transform: translate(0%, -50%);
+}
+
+main .main_card {
+  background-color: brown;
+  display: inline-flex;
+  margin: 25px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 25px;
+}
+
+main .main_card img {
+  width: 200px;
+}
+
+main .main_text {
+  margin: auto;
+  padding: 30px;
+}
+
+header img {
+  margin: 0;
+  display: block;
+  width: 150px; 
+  height: 12px; 
+}
+.texto_h1 {
+  font-size: 90px;
+  color: blanchedalmond;
+  position: Center; 
+  left: 52%; 
+  width: calc(100% - 40px);
+}
+
+a {
+  display: block; 
+  margin-top: 40px; 
+}
+
+.parrafo_1 {
+
+  font-family: Arial, Helvetica, sans-serif;
+  color: azure;
+  font-size: 20px;
+}
+
+.gordon_freeman {
+  background-size: cover;
+  /*con esto declaramos que la imagen adjunta no se repita*/
+  background-repeat: no-repeat;
+  /*con este valor determinas que la posicion del background sea al medio*/
+  background-position: center;
+  width: 100%;
+  background-image: url("assets/img/hl1ex.jpg");
+}
+.barney_gomez {
+  background-size: cover;
+  /*con esto declaramos que la imagen adjunta no se repita*/
+  background-repeat: no-repeat;
+  /*con este valor determinas que la posicion del background sea al medio*/
+  background-position: center;
+  width: 100%;
+  background-image: url("assets/img/577050.jpg");
+
+}
+
+.Opposing_Force {
+  background-size: cover;
+  /*con esto declaramos que la imagen adjunta no se repita*/
+  background-repeat: no-repeat;
+  /*con este valor determinas que la posicion del background sea al medio*/
+  background-position: center;
+  width: 100%;
+  background-image: url("assets/img/opposin.jpg");
+}
+
+.Hl2 {
+  background-size: cover;
+  /*con esto declaramos que la imagen adjunta no se repita*/
+  background-repeat: no-repeat;
+  /*con este valor determinas que la posicion del background sea al medio*/
+  background-position:center ;
+  width: 100%;
+  background-image: url("assets/img/HL2.jpg");
+}
+
+.Episidio_one{
+  background-size: cover;
+  /*con esto declaramos que la imagen adjunta no se repita*/
+  background-repeat: no-repeat;
+  /*con este valor determinas que la posicion del background sea al medio*/
+  background-position:center ;
+  width: 100%;
+  background-image: url("assets/img/ep1.jpg");
+
+}
+
+.Episidio_two{
+  background-size: cover;
+  /*con esto declaramos que la imagen adjunta no se repita*/
+  background-repeat: no-repeat;
+  /*con este valor determinas que la posicion del background sea al medio*/
+  background-position:center ;
+  width: 100%;
+  background-image: url("assets/img/hl2ep2.jpg");
+
+}
+footer {
+  font-family: Times New Roman Italic;
+  color: blanchedalmond;
+  text-align: center;
+  padding: 10px;
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+}
+
+.footer_heading {
+
+  font-style: italic;
+  font-size: 30px; /* Ajusta el tamaño del texto según sea necesario */
+  margin: 0; /* Elimina los márgenes para que el título ocupe todo el ancho */
+  padding-top: 100px; /* Ajusta el espaciado superior según sea necesario */
+}
+
+body {
+  margin: 50px; /* Define un margen de 20px en todos los lados del cuerpo */
+}
+
+.texto_h2 {
+  font-family: Times New Roman Italic;
+  font-size: 50px;
+  color: blanchedalmond;
+  position: Center; 
+  left: 52%; 
+  width: calc(100% - 40px);
+}
