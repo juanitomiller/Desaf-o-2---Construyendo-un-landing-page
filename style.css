@@ -2,6 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+}
+
+body {
+  background-image: url("./assets/img/pexels-francesco-ungaro-281260.jpg");
 }
 
 header {
@@ -9,7 +14,7 @@ header {
   background-color: rgb(180, 0, 204);
   padding: 20px;
   height: 300px;
-  background-image: url("assets/img/Half-life.jpg");
+  background-image: url("assets/img/wallpaper\ 12.jpg");
   /*con esto asignamos el tamaño del background*/
   background-size: cover;
   /*con esto declaramos que la imagen adjunta no se repita*/
@@ -102,7 +107,7 @@ header img {
 }
 .texto_h1 {
   font-size: 90px;
-  color: blanchedalmond;
+  color: rgb(13, 216, 29);
   position: Center; 
   left: 52%; 
   width: calc(100% - 40px);
@@ -116,7 +121,7 @@ a {
 .parrafo_1 {
 
   font-family: Arial, Helvetica, sans-serif;
-  color: azure;
+  color: rgb(243, 245, 245);
   font-size: 20px;
 }
 
@@ -127,7 +132,7 @@ a {
   /*con este valor determinas que la posicion del background sea al medio*/
   background-position: center;
   width: 100%;
-  background-image: url("assets/img/hl1ex.jpg");
+  background-image: url("assets/img/banner-blue-background\ \(1\).png");
 }
 .barney_gomez {
   background-size: cover;
@@ -136,7 +141,7 @@ a {
   /*con este valor determinas que la posicion del background sea al medio*/
   background-position: center;
   width: 100%;
-  background-image: url("assets/img/577050.jpg");
+  background-image: url("assets/img/banner-blue-background\ \(1\).png");
 
 }
 
@@ -147,7 +152,7 @@ a {
   /*con este valor determinas que la posicion del background sea al medio*/
   background-position: center;
   width: 100%;
-  background-image: url("assets/img/opposin.jpg");
+  background-image: url("assets/img/banner-blue-background\ \(1\).png");
 }
 
 .Hl2 {
@@ -157,7 +162,7 @@ a {
   /*con este valor determinas que la posicion del background sea al medio*/
   background-position:center ;
   width: 100%;
-  background-image: url("assets/img/HL2.jpg");
+  background-image: url("assets/img/banner-blue-background\ \(1\).png");
 }
 
 .Episidio_one{
@@ -167,7 +172,7 @@ a {
   /*con este valor determinas que la posicion del background sea al medio*/
   background-position:center ;
   width: 100%;
-  background-image: url("assets/img/ep1.jpg");
+  background-image: url("assets/img/banner-blue-background\ \(1\).png");
 
 }
 
@@ -178,8 +183,7 @@ a {
   /*con este valor determinas que la posicion del background sea al medio*/
   background-position:center ;
   width: 100%;
-  background-image: url("assets/img/hl2ep2.jpg");
-
+  background-image: url("assets/img/banner-blue-background\ \(1\).png");
 }
 footer {
   font-family: Times New Roman Italic;
@@ -208,7 +212,7 @@ body {
 .texto_h2 {
   font-family: Times New Roman Italic;
   font-size: 50px;
-  color: blanchedalmond;
+  color: #e7608d;
   position: Center; 
   left: 52%; 
   width: calc(100% - 40px);
